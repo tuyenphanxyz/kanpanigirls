@@ -39,11 +39,11 @@ Other Pages
 .coming-soon {
   background-image: url(../images/coming-soon.png);
   position: absolute;
-  bottom: 240px;
+  bottom: 250px;
   /* left: 25%; */
   /* margin-left: -160px; */
   width: 100%;
-  height: 14%;
+  height: 15%;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
@@ -116,9 +116,10 @@ Other Pages
 
 #clockdiv {
   position: absolute;
-  left: 50%;
-  margin-left: -300px;
-  bottom: 60px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 1000;
   display: inline-flex;
   justify-content: center;
@@ -135,7 +136,7 @@ Other Pages
     10px 0 80px #00ffff26;
 }
 #clockdiv .item-clock {
-  padding: 20px 20px;
+  padding: 10px 19px;
 }
 .item-clock span {
   font-size: 64px;
@@ -245,6 +246,33 @@ Other Pages
     transform: translateX(30px);
     opacity: 1;
   }
+}
+.clock-coutdown {
+     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  bottom:0;
+    text-align: center;
+}
+
+.gr-button-social-news {
+ position: absolute;
+ margin-left: auto;
+ margin-right: auto;
+ left: 0;
+ right: 0;
+ text-align: center;
+ bottom: 146px;
+}
+.gr-button-social-news span {
+  display: block;
+  width: 160px;
+  margin: auto;
+  background: #ffffffc7;
+  border-radius: 20px;
+  box-shadow: 1px 2px 2px #ababab;
 }
 
 .gr-button-social {
