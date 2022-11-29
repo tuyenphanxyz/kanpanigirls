@@ -135,6 +135,8 @@ Other Pages
     inset -20px 0 300px #00ffff1c, 0 0 50px #fff, -10px 0 80px #ff00ff0f,
     10px 0 80px #00ffff26;
 }
+
+
 #clockdiv .item-clock {
   padding: 10px 19px;
 }
@@ -265,6 +267,8 @@ Other Pages
  right: 0;
  text-align: center;
  bottom: 146px;
+ z-index: 99999;
+ transition: all 0.4s;
 }
 .gr-button-social-news span {
   display: block;
@@ -274,6 +278,20 @@ Other Pages
   border-radius: 20px;
   box-shadow: 1px 2px 2px #ababab;
 }
+.gr-button-social-news a {
+  transition: all 0.4s;
+  display: inline-block;
+}
+.gr-button-social-news a:hover {
+  box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
+    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+}
+
+
+
+
+
 
 .gr-button-social {
   position: absolute;
